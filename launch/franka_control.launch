@@ -19,4 +19,7 @@
          as well as GripperCommand actions -->
     <arg name="moveit_controller_manager" value="simple" />
   </include>
+  
+  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_rai" args="0.051063218168956606 -0.01489561804 0.06277251669404868 3.141592 -1.570796 0 panda_hand camera_link"/> -->
+
 </launch>
